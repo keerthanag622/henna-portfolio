@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair display', serif;
+}
+.banner img{
+    width: 100%; 
+    height: 600px;
+    object-fit: cover;  
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.header h1{
+   color: rgb(231, 153, 51);
+}
+.navigation a{
+    color: rgb(64, 196, 64);
+    transition: 0.5s;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: rgb(192, 112, 20);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.home h2{
+    color: rgb(231, 153, 51);
+    padding: 7px;
+}
+.home p{
+    font-size: larger;
+    color: rgb(29, 161, 29);
+    padding: 15px;
+}
+.about h2,h3{
+    color: rgb(231, 153, 51);
+    padding: 7px;
+    margin: 5px;
+}
+.about img{
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+}
+.about p,
+.about ul{
+    color: rgb(29, 161, 29);
+    font-size: larger;
+    padding-left: 25px;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 25px;
+    margin: 10px;
+}
+.gallery-container figure{
+    text-align: center;
+}
+.gallery img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    color: chocolate;
+}
+.gallery figure{
+    overflow: hidden;
+}
+.gallery img:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.gallery h2{
+    color: rgb(231, 153, 51);
+    padding: 7px;
+    margin: 5px;
+}
+.gallery figcaption{
+    color: rgb(29, 161, 29);
+    font-size: larger;
+}
+.list h2,
+.list th{
+    color:rgb(231, 153, 51);
+    font-size: larger;
+    padding: 7px;
+}
+.list tr{
+    color: rgb(29, 161, 29);
+    font-size: larger;
+}
+.testimonial{
+    padding: 40px 20px;
+}
+.testimonial h2{
+    color: rgb(231, 153, 51);
+    padding: 7px;
+}
+.testimonial label{
+    color: rgb(29, 161, 29);
+    margin-bottom: 10px;
+    display:block;
+    font-size:18px;
+}
+.form-group{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.form-group input,
+.form-group textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+.testimonial form{
+    width:100%;
+    max-width:500px;
+    margin:0;
+    background:#fdf8f3;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+.contact_us h2{
+    color: rgb(231, 153, 51);
+    padding: 7px;
+}
+.contact_us li{
+    color: rgb(29, 161, 29);
+}
+.footer p{
+    color: rgb(29, 161, 29);
+}
